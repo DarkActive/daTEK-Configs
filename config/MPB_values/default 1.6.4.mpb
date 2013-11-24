@@ -1,0 +1,531 @@
+# Config file for BalancedExchange's MPB values
+# Any line that starts with a hash is a comment and won't be processed by BalancedExchange
+# Every non-empty, non-comment line must contain 3 tab separated numbers
+# The first number is the id of the item/block to set
+# The second number is the amount of matter gained when the item/block is consumed (0 makes it inconsumable)
+# The third number is the amount of matter lost when the *block* is created (0 makes it uncreatable)
+# Any negative MPB value will be incremented by 1, so the line "3 -2 -1" would make dirt consumable at -1 MPB and creatable at 0 MPB
+# Undefined MPB values are automatically set to 0, 0, so if both MPB values are 0 don't bother including it in this file
+
+# Stone
+1	1	1
+
+# Grass Block
+2	1	0
+
+# Dirt
+3	1	1
+
+# Cobblestone
+4	1	1
+
+# Oak Wood Planks, Spruce Wood Planks, Birch Wood Planks, Jungle Wood Planks
+5	8	8
+
+# Jungle Sapling, Oak Sapling, Spruce Sapling, Birch Sapling
+6	1	0
+
+# Sand
+12	1	1
+
+# Gravel
+13	2	2
+
+# Gold Ore
+14	1536	2048
+
+# Iron Ore
+15	192	256
+
+# Coal Ore
+16	32	72
+
+# Spruce Wood, Jungle Wood, Oak Wood, Birch Wood
+17	32	32
+
+# Jungle Leaves, Oak Leaves, Birch Leaves, Spruce Leaves
+18	1	0
+
+# Glass
+20	3	3
+
+# Lapis Lazuli Ore
+21	24	54
+
+# Lapis Lazuli Block
+22	54	54
+
+# Sandstone, Chiseled Sandstone, Smooth Sandstone
+24	1	1
+
+# Powered Rail
+27	2056	0
+
+# Detector Rail
+28	264	0
+
+# Cobweb
+30	4	0
+
+# Fern, Grass
+31	1	0
+
+# Dead Bush
+32	1	0
+
+# Blue Wool, Light Blue Wool, Black Wool, Red Wool, Pink Wool, Gray Wool, Wool, Lime Wool, Purple Wool, Brown Wool, Light Gray Wool, Yellow Wool, Cyan Wool, Green Wool, Orange Wool, Magenta Wool
+35	8	8
+
+# Flower
+37	1	0
+
+# Rose
+38	1	0
+
+# Mushroom
+39	12	0
+
+# Mushroom
+40	12	0
+
+# Block of Gold
+41	18432	18432
+
+# Block of Iron
+42	2304	2304
+
+# Stone Slab, Bricks Slab, Quartz Slab, Sandstone Slab, Cobblestone Slab, Stone Bricks Slab, Nether Brick Slab
+44	-1	1
+
+# Bricks
+45	32	32
+
+# Moss Stone
+48	16	16
+
+# Obsidian
+49	16	32
+
+# Torch
+50	9	0
+
+# Oak Wood Stairs
+53	12	12
+
+# Diamond Ore
+56	8192	16840
+
+# Block of Diamond
+57	73728	73728
+
+# Ladder
+65	8	0
+
+# Rail
+66	96	0
+
+# Stone Stairs
+67	-1	2
+
+# Redstone Ore
+73	192	288
+
+# Redstone Ore
+74	240	0
+
+# Redstone Torch
+75	52	0
+
+# Redstone Torch
+76	52	0
+
+# Ice
+79	4	0
+
+# Cactus
+81	32	0
+
+# Clay
+82	32	0
+
+# Sugar cane
+83	8	0
+
+# Fence
+85	24	24
+
+# Pumpkin
+86	32	0
+
+# Netherrack
+87	1	1
+
+# Soul Sand
+88	1	1
+
+# Glowstone
+89	64	64
+
+# Jack o'Lantern
+91	41	0
+
+# Cracked Stone Bricks, Chiseled Stone Bricks, Stone Bricks, Mossy Stone Bricks
+98	1	1
+
+# Fence Gate
+107	32	32
+
+# Brick Stairs
+108	48	48
+
+# Stone Brick Stairs
+109	-1	2
+
+# Nether Brick
+112	4	4
+
+# Nether Brick Fence
+113	4	4
+
+# Nether Brick Stairs
+114	6	6
+
+# End Stone
+121	64	64
+
+# Redstone Lamp
+123	256	0
+
+# Redstone Lamp
+124	256	0
+
+# Oak Wood Slab, Spruce Wood Slab, Jungle Wood Slab, Birch Wood Slab
+126	16	16
+
+# Sandstone Stairs
+128	-1	2
+
+# Emerald Ore
+129	4096	9216
+
+# Block of Emerald
+133	2304	2304
+
+# Spruce Wood Stairs
+134	12	12
+
+# Birch Wood Stairs
+135	12	12
+
+# Jungle Wood Stairs
+136	12	12
+
+# Mossy Cobblestone Wall, Cobblestone Wall
+139	2	2
+
+# Block of Redstone
+152	432	432
+
+# Nether Quartz Ore
+153	32	72
+
+# Pillar Quartz Block, Block of Quartz, Chiseled Quartz Block
+155	128	128
+
+# Quartz Stairs
+156	192	192
+
+# Activator Rail
+157	264	0
+
+# Black Stained Clay, Light Blue Stained Clay, Green Stained Clay, Light Gray Stained Clay, Magenta Stained Clay, Red Stained Clay, Yellow Stained Clay, Gray Stained Clay, Purple Stained Clay, White Stained Clay, Blue Stained Clay, Brown Stained Clay, Cyan Stained Clay, Orange Stained Clay, Lime Stained Clay, Pink Stained Clay
+159	32	32
+
+# Hay Bale
+170	162	162
+
+# Black Carpet, Light Gray Carpet, Lime Carpet, Magenta Carpet, Brown Carpet, Blue Carpet, Orange Carpet, Light Blue Carpet, Red Carpet, Cyan Carpet, Gray Carpet, Carpet, Purple Carpet, Pink Carpet, Yellow Carpet, Green Carpet
+171	12	0
+
+# Hardened Clay
+172	32	32
+
+# Block of Coal
+173	288	288
+
+# Flint and Steel
+259	258	0
+
+# Apple
+260	4	0
+
+# Bow
+261	12	0
+
+# Arrow
+262	10	0
+
+# Charcoal, Coal
+263	32	0
+
+# Diamond
+264	8192	0
+
+# Iron Ingot
+265	256	0
+
+# Gold Ingot
+266	2048	0
+
+# Stick
+280	4	0
+
+# Bowl
+281	6	0
+
+# Mushroom Stew
+282	30	0
+
+# String
+287	4	0
+
+# Feather
+288	4	0
+
+# Gunpowder
+289	4	0
+
+# Seeds
+295	4	0
+
+# Wheat
+296	18	0
+
+# Bread
+297	54	0
+
+# Flint
+318	2	0
+
+# Raw Porkchop
+319	25	0
+
+# Cooked Porkchop
+320	32	0
+
+# Golden Apple
+322	1820	0
+
+# Sign
+323	17	0
+
+# Wooden Door
+324	48	0
+
+# Bucket
+325	768	0
+
+# Water Bucket
+326	768	0
+
+# Lava Bucket
+327	1024	0
+
+# item.railcraft.cart.basic.name
+328	1280	0
+
+# Iron Door
+330	1536	0
+
+# Redstone
+331	48	0
+
+# Snowball
+332	1	0
+
+# Boat
+333	40	0
+
+# Leather
+334	12	0
+
+# Milk
+335	1024	0
+
+# Brick
+336	8	0
+
+# Clay
+337	8	0
+
+# Sugar Canes
+338	8	0
+
+# Paper
+339	8	0
+
+# Book
+340	36	0
+
+# Slimeball
+341	16	0
+
+# Egg
+344	16	0
+
+# Glowstone Dust
+348	16	0
+
+# Raw Fish
+349	25	0
+
+# Cooked Fish
+350	32	0
+
+# Ink Sac, Gray Dye, Light Blue Dye, Purple Dye, Cyan Dye, Pink Dye, Cocoa Beans, Bone Meal, Magenta Dye, Cactus Green, Rose Red, Lime Dye, Lapis Lazuli, Dandelion Yellow, Orange Dye, Light Gray Dye
+351	6	0
+
+# Bone
+352	18	0
+
+# Sugar
+353	8	0
+
+# Cake
+354	854	0
+
+# Bed
+355	48	0
+
+# Cookie
+357	5	0
+
+# Shears
+359	512	0
+
+# Melon
+360	4	0
+
+# Pumpkin Seeds
+361	8	0
+
+# Melon Seeds
+362	4	0
+
+# Raw Beef
+363	25	0
+
+# Steak
+364	32	0
+
+# Raw Chicken
+365	24	0
+
+# Cooked Chicken
+366	20	0
+
+# Rotten Flesh
+367	2	0
+
+# Ender Pearl
+368	128	0
+
+# Blaze Rod
+369	144	0
+
+# Ghast Tear
+370	1024	0
+
+# Gold Nugget
+371	227	0
+
+# Nether Wart
+372	16	0
+
+# Glass Bottle
+374	2	0
+
+# Spider Eye
+375	24	0
+
+# Fermented Spider Eye
+376	44	0
+
+# Blaze Powder
+377	72	0
+
+# Magma Cream
+378	88	0
+
+# Brewing Stand
+379	147	0
+
+# Cauldron
+380	1792	0
+
+# Eye of Ender
+381	200	0
+
+# Glistering Melon
+382	1820	0
+
+# Fire Charge
+385	36	0
+
+# Emerald
+388	256	0
+
+# Item Frame
+389	44	0
+
+# Flower Pot
+390	24	0
+
+# Carrot
+391	44	0
+
+# Potato
+392	44	0
+
+# Baked Potato
+393	56	0
+
+# Poisonous Potato
+394	256	0
+
+# Golden Carrot
+396	1860	0
+
+# Head, Zombie Head, Wither Skeleton Skull, Skeleton Skull, Creeper Head
+397	4096	0
+
+# Carrot on a Stick
+398	64	0
+
+# Nether Star
+399	32784	0
+
+# Pumpkin Pie
+400	56	0
+
+# Firework Rocket
+401	12	0
+
+# Nether Brick
+405	1	0
+
+# Nether Quartz
+406	32	0
+
+# Lead
+420	32	0
+
+# tile.blockOfStability.name
+500	32768	32768
+
+# tile.blockOfReactivity.name
+501	3	3
+
+# tile.blockOfReactivityRadiation.name
+502	-1	8
+

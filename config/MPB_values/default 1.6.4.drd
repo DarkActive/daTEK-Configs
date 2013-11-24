@@ -1,0 +1,62 @@
+# Dynamic Recipe Definition file
+# Any line that starts with a hash is a comment and won't be processed by BalancedExchange
+# Recipe definitions use the format: input items > output item
+# input items must be between 1 and 9 items, separated by + symbols
+# An 'item' consists of an item id, a possible item count and a possible metadata/damage value
+# if the item count is provided it must come before the item id and be followed by an 'x', e.g 4x3 = 4 dirt blocks
+# if the metadata/damage is provided it must come after the item id and be preceded by a ':', e.g 35:5 = lime wool
+# These can be combined, so 4x35:5 = 4 lime wool.
+# When used as an output 4x35:5 would create 4 lime wool 
+# When used as an input 4x35:5 is equivalent to 35:5 + 35:5 + 35:5 + 35:5
+# When used as an input you may use * as a metadata value to include all possible values, eg 35:* = any color of wool
+# All recipes automatically include an amulet of transmutation, allowing 8 other items.
+# If for some reason you don't want to include an amulet in the recipe you can start the line with an @ symbol
+
+4x264 > 500
+
+500 > 4x264
+
+4x266 > 264
+
+264 > 4x266
+
+8x265 > 266
+
+266 > 8x265
+
+8x17:* > 265
+
+265 > 10x501
+
+35:0 > 351:15
+
+35:1 > 351:14
+
+35:2 > 351:13
+
+35:3 > 351:12
+
+35:4 > 351:11
+
+35:5 > 351:10
+
+35:6 > 351:9
+
+35:7 > 351:8
+
+35:8 > 351:7
+
+35:9 > 351:6
+
+35:10 > 351:5
+
+35:11 > 351:4
+
+35:12 > 351:3
+
+35:13 > 351:2
+
+35:14 > 351:1
+
+35:15 > 351:0
+
