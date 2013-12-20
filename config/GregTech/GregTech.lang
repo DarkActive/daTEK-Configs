@@ -235,6 +235,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_112=For the very large Projects
     S:TileEntity_DESCRIPTION_113=Slices Blocks into Plates
     S:TileEntity_DESCRIPTION_12=
+    S:TileEntity_DESCRIPTION_126=A Buffer, which uses OrePrefixes to filter
+    S:TileEntity_DESCRIPTION_127=A Filter, which also buffers Items!
     S:TileEntity_DESCRIPTION_128=For the smaller Projects
     S:TileEntity_DESCRIPTION_129=An early way to get Steam Power
     S:TileEntity_DESCRIPTION_130=Grinding up Ores and also gives byproducts
@@ -261,8 +263,10 @@ languagefile {
     S:TileEntity_DESCRIPTION_19=A chest-sized Buffer!
     S:TileEntity_DESCRIPTION_1900=Item Capactiy: 2 Stacks/sec
     S:TileEntity_DESCRIPTION_1901=Item Capactiy: 4 Stacks/sec
+    S:TileEntity_DESCRIPTION_1902=Item Capacity: 4 Stacks/sec
     S:TileEntity_DESCRIPTION_1950=Item Capactiy: 4 Stacks/sec
     S:TileEntity_DESCRIPTION_1951=Item Capactiy: 8 Stacks/sec
+    S:TileEntity_DESCRIPTION_1952=Item Capacity: 8 Stacks/sec
     S:TileEntity_DESCRIPTION_20=No matter how often you click that dang Button, the second Facing WON'T CHANGE!!!
     S:TileEntity_DESCRIPTION_21=A Buffer, which lets you specify the target Slot!
     S:TileEntity_DESCRIPTION_22=Electric Cobble Generator Mk VI
@@ -320,6 +324,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_72=Decorative Item Storage
     S:TileEntity_DESCRIPTION_73=Decorative Item Storage
     S:TileEntity_DESCRIPTION_74=Decorative Item Storage
+    S:TileEntity_DESCRIPTION_75=With a capacity of 256000 Liters!
     S:TileEntity_DESCRIPTION_77=Player Proximity Sensor
     S:TileEntity_DESCRIPTION_78=Redstone Strength on a Scale
     S:TileEntity_DESCRIPTION_79=§rYou just need §5I§dm§4a§cg§ei§an§ba§3t§9i§1o§5n§r to use this.
@@ -394,6 +399,8 @@ languagefile {
     S:item.Empty_Electric_Saw.tooltip_main=Empty. You need to recharge it.
     S:item.Empty_Electric_Wrench.name=Empty Electric Wrench
     S:item.Empty_Electric_Wrench.tooltip_main=Empty. You need to recharge it.
+    S:item.Empty_Screwdriver_Electric.name=Empty Electric Screwdriver
+    S:item.Empty_Screwdriver_Electric.tooltip_main=Empty. You need to recharge it.
     S:item.Empty_Soldering_Tool.name=Empty Soldering Iron
     S:item.Empty_Soldering_Tool.tooltip_main=Empty. You need to recharge it.
     S:item.Flint_Mortar.name=Flint Mortar
@@ -643,6 +650,8 @@ languagefile {
     S:item.GT_DirtyDusts.65.name=Dirty Pile of Marble Dust
     S:item.GT_DirtyDusts.66.name=Dirty Pile of Basalt Dust
     S:item.GT_DirtyDusts.67.name=Dirty Pile of Iridium Dust
+    S:item.GT_DirtyDusts.68.name=Dirty Pile of Black Granite Dust
+    S:item.GT_DirtyDusts.69.name=Dirty Pile of Red Granite Dust
     S:item.GT_DirtyDusts.7.name=Dirty Pile of Flint Dust
     S:item.GT_DirtyDusts.8.name=Dirty Pile of Sulfur Dust
     S:item.GT_DirtyDusts.80.name=Dirty Pile of Thorium Dust
@@ -717,6 +726,8 @@ languagefile {
     S:item.GT_Dusts.65.name=Marble Dust
     S:item.GT_Dusts.66.name=Basalt Dust
     S:item.GT_Dusts.67.name=Iridium Dust
+    S:item.GT_Dusts.68.name=Black Granite Dust
+    S:item.GT_Dusts.69.name=Red Granite Dust
     S:item.GT_Dusts.7.name=Flint Dust
     S:item.GT_Dusts.8.name=Sulfur Dust
     S:item.GT_Dusts.80.name=Thorium Dust
@@ -988,6 +999,12 @@ languagefile {
     S:item.GT_Screwdriver.tooltip_1=Can switch the Design of certain Blocks
     S:item.GT_Screwdriver.tooltip_2=Can rotate Repeaters and Comparators
     S:item.GT_Screwdriver.tooltip_main=To screw Covers on Machines
+    S:item.GT_Screwdriver_Electric.name=Electric Screwdriver
+    S:item.GT_Screwdriver_Electric.tooltip_main=To screw Covers on Machines
+    S:item.GT_Screwdriver_Tungstensteel.name=Tungstensteel Screwdriver
+    S:item.GT_Screwdriver_Tungstensteel.tooltip_1=Can switch the Design of certain Blocks
+    S:item.GT_Screwdriver_Tungstensteel.tooltip_2=Can rotate Repeaters and Comparators
+    S:item.GT_Screwdriver_Tungstensteel.tooltip_main=To screw Covers on Machines
     S:item.GT_SmallDusts.0.name=Small Pile of Ender Pearl Dust
     S:item.GT_SmallDusts.1.name=Small Pile of Ender Eye Dust
     S:item.GT_SmallDusts.10.name=Small Pile of Endstone Dust
@@ -1059,6 +1076,8 @@ languagefile {
     S:item.GT_SmallDusts.65.name=Small Pile of Marble Dust
     S:item.GT_SmallDusts.66.name=Small Pile of Basalt Dust
     S:item.GT_SmallDusts.67.name=Small Pile of Iridium Dust
+    S:item.GT_SmallDusts.68.name=Small Pile of Black Granite Dust
+    S:item.GT_SmallDusts.69.name=Small Pile of Red Granite Dust
     S:item.GT_SmallDusts.7.name=Small Pile of Flint Dust
     S:item.GT_SmallDusts.8.name=Small Pile of Sulfur Dust
     S:item.GT_SmallDusts.80.name=Small Pile of Thorium Dust
@@ -1226,6 +1245,8 @@ languagefile {
     S:item.GT_TinyDusts.65.name=Tiny Pile of Marble Dust
     S:item.GT_TinyDusts.66.name=Tiny Pile of Basalt Dust
     S:item.GT_TinyDusts.67.name=Tiny Pile of Iridium Dust
+    S:item.GT_TinyDusts.68.name=Tiny Pile of Black Granite Dust
+    S:item.GT_TinyDusts.69.name=Tiny Pile of Red Granite Dust
     S:item.GT_TinyDusts.7.name=Tiny Pile of Flint Dust
     S:item.GT_TinyDusts.8.name=Tiny Pile of Sulfur Dust
     S:item.GT_TinyDusts.80.name=Tiny Pile of Thorium Dust
@@ -1346,15 +1367,18 @@ languagefile {
     S:tile.BlockMetaID_Machine.GT_Compressor.name=Automatic Compressor
     S:tile.BlockMetaID_Machine.GT_Cutter.name=Plate Cutting Machine
     S:tile.BlockMetaID_Machine.GT_DieselGenerator.name=Diesel Generator
+    S:tile.BlockMetaID_Machine.GT_DigitalTank.name=Digital Tank
     S:tile.BlockMetaID_Machine.GT_DistillationTower.name=Distillation Tower
     S:tile.BlockMetaID_Machine.GT_DragonEggEnergySiphon.name=Dragon Egg Energy Siphon
     S:tile.BlockMetaID_Machine.GT_Dynamo_Hatch.name=Dynamo Hatch
     S:tile.BlockMetaID_Machine.GT_E_Buffer_Large.name=Large Electric Buffer
     S:tile.BlockMetaID_Machine.GT_E_Buffer_Small.name=Small Electric Buffer
     S:tile.BlockMetaID_Machine.GT_E_Craftingtable.name=Electric Craftingtable
+    S:tile.BlockMetaID_Machine.GT_E_Filter.name=Electric Filter
     S:tile.BlockMetaID_Machine.GT_E_Furnace.name=Automatic E-Furnace
     S:tile.BlockMetaID_Machine.GT_E_ItemClearer.name=Electric Item Clearer
     S:tile.BlockMetaID_Machine.GT_E_Sorter.name=Electric Sorter
+    S:tile.BlockMetaID_Machine.GT_E_T_Filter.name=Electric Type Filter
     S:tile.BlockMetaID_Machine.GT_E_T_Sorter.name=Electric Type Sorter
     S:tile.BlockMetaID_Machine.GT_Electrolyzer.name=Industrial Electrolyzer
     S:tile.BlockMetaID_Machine.GT_Energy_Hatch.name=Energy Hatch
@@ -1391,6 +1415,8 @@ languagefile {
     S:tile.BlockMetaID_Machine.GT_Pipe_Bronze_Large.name=Large Bronze Fluid Pipe
     S:tile.BlockMetaID_Machine.GT_Pipe_Electrum.name=Electrum Item Pipe
     S:tile.BlockMetaID_Machine.GT_Pipe_Electrum_Large.name=Large Electrum Item Pipe
+    S:tile.BlockMetaID_Machine.GT_Pipe_Platinum.name=Platinum Item Pipe
+    S:tile.BlockMetaID_Machine.GT_Pipe_Platinum_Large.name=Large Platinum Item Pipe
     S:tile.BlockMetaID_Machine.GT_Pipe_StainlessSteel.name=Stainless Steel Fluid Pipe
     S:tile.BlockMetaID_Machine.GT_Pipe_StainlessSteel_Large.name=Large Stainless Steel Fluid Pipe
     S:tile.BlockMetaID_Machine.GT_Pipe_Steel.name=Steel Fluid Pipe
