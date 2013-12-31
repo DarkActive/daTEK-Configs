@@ -1000,6 +1000,8 @@ languagefile {
     S:item.GT_Screwdriver.tooltip_2=Can rotate Repeaters and Comparators
     S:item.GT_Screwdriver.tooltip_main=To screw Covers on Machines
     S:item.GT_Screwdriver_Electric.name=Electric Screwdriver
+    S:item.GT_Screwdriver_Electric.tooltip_1=Can switch the Design of certain Blocks
+    S:item.GT_Screwdriver_Electric.tooltip_2=Can rotate Repeaters and Comparators
     S:item.GT_Screwdriver_Electric.tooltip_main=To screw Covers on Machines
     S:item.GT_Screwdriver_Tungstensteel.name=Tungstensteel Screwdriver
     S:item.GT_Screwdriver_Tungstensteel.tooltip_1=Can switch the Design of certain Blocks
